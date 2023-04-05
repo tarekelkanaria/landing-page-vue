@@ -1,6 +1,6 @@
 <!-- The main header component -->
 <template>
-  <header class="container">
+  <header class="container" id="home">
     <h2 class="logo">{{ title }}</h2>
     <!-- Burger menu icon to toggle the nav only on small screen -->
     <font-awesome-icon

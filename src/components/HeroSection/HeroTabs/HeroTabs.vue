@@ -1,6 +1,6 @@
 <!-- match tabs with their corresponding view using Vue Router -->
 <template>
-  <nav class="tabs">
+  <nav class="tabs" id="project">
     <router-link to="/" class="tab">Web Design</router-link>
     <router-link to="/mob" class="tab">Mobile App Design</router-link>
     <router-link to="/freebies" class="tab">Freebies</router-link>

@@ -13,6 +13,7 @@ meets the design specifications with clean, well-structured, and well-commented 
 - JavaScript
 - Vue
 - Vue Router
+- vue-scrollto
 - normalize.css
 - Font Awesome
 

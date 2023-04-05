@@ -1,7 +1,7 @@
 <!-- The hero section consists of title, tabs, projectss views, and work section -->
 <!-- there is a view for each tab -->
 <template>
-  <main class="container">
+  <main class="container" id="about">
     <h1 class="title" v-html="text"></h1>
     <HeroTabs />
     <WorkingSection />

@@ -4,6 +4,7 @@
       v-for="(item, index) in items"
       :key="index"
       :class="{ active: item.active, item: true }"
+      v-scroll-to="item.to"
       @click="handleActive(index)"
     >
       {{ item.text }}
@@ -17,7 +18,7 @@ export default {
   data() {
     return {
       items: [
-        { text: "Home", active: true }, {text: "About", active: false }, {text: "Project", active: false }, {text: "Contact", active: false }
+        { text: "Home", active: true, to: '#home'}, {text: "About", active: false, to: '#about' }, {text: "Project", active: false, to: '#project'}, {text: "Contact", active: false, to: '#contact'}
       ],
     };
   },

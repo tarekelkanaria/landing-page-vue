@@ -1,5 +1,5 @@
 <template>
-  <section class="working">
+  <section class="working" id="contact">
     <h2>
       Interested working <br />
       with me?
