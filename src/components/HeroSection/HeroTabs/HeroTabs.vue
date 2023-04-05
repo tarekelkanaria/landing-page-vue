@@ -36,6 +36,7 @@ export default {
 @media (max-width: 767px) {
   .tabs {
     flex-direction: column;
+    width: 100%;
   }
 }
 </style>
