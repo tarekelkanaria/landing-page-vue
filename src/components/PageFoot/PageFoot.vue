@@ -3,9 +3,9 @@
   <footer class="container">
     <p>Let's Connect</p>
     <div class="icons">
-      <img src="src/assets/instagram-negative.svg" alt="Instagram Icon" />
-      <img src="src/assets/youtube-negative.svg" alt="Youtube Icon" />
-      <img src="src/assets/dribbble-negative.svg" alt="Dirbbble Icon" />
+      <img :src="instagramURL" alt="Instagram Icon" />
+      <img :src="youtubeURL" alt="Youtube Icon" />
+      <img :src="dribbleURL" alt="Dirbbble Icon" />
     </div>
     <p @click="backToTop">
       Back to Top <img src="src/assets/short_up.svg" alt="Arrow to top" />
@@ -14,8 +14,19 @@
 </template>
 
 <script>
+import instagram from "../../assets/instagram-negative.svg";
+import youtube from "../../assets/youtube-negative.svg";
+import drrible from "../../assets/dribbble-negative.svg";
+
 export default {
   name: "PageFoot",
+  data() {
+    return {
+      instagramURL: instagram,
+      youtubeURL: youtube,
+      dribbleURL: drrible,
+    };
+  },
   methods: {
     // method to smoothly scroll to top based on click event
     backToTop() {
