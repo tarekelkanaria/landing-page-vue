@@ -8,7 +8,7 @@
       <img :src="dribbleURL" alt="Dirbbble Icon" />
     </div>
     <p @click="backToTop">
-      Back to Top <img src="src/assets/short_up.svg" alt="Arrow to top" />
+      Back to Top <img :src="toTopURL" alt="Arrow to top" />
     </p>
   </footer>
 </template>
@@ -17,6 +17,7 @@
 import instagram from "../../assets/instagram-negative.svg";
 import youtube from "../../assets/youtube-negative.svg";
 import drrible from "../../assets/dribbble-negative.svg";
+import toTop from "../../assets/short_up.svg";
 
 export default {
   name: "PageFoot",
@@ -25,6 +26,7 @@ export default {
       instagramURL: instagram,
       youtubeURL: youtube,
       dribbleURL: drrible,
+      toTopURL: toTop,
     };
   },
   methods: {
