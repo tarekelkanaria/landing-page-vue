@@ -14,21 +14,22 @@
 
 <script>
 import ProjectCard from "../ProjectCard.vue";
+import minify from "../../../assets/minify.png";
+import ant from "../../../assets/ant.png";
+import lumy from "../../../assets/lumy.png";
+import keeper from "../../../assets/keeper.png";
+
 export default {
   name: "WebTab",
   data() {
     return {
-      product_one:
-        '<img src="./src/assets/minify.png" alt="Web design" style="border-radius: 2.5rem; max-width: 100%; width:100%;" />',
+      product_one: `<img src=${minify} alt="Web design" style="border-radius: 2.5rem; max-width: 100%; width:100%;" />`,
       text_one: "Minify - Web Design",
-      product_two:
-        '<img src="./src/assets/ant.png" alt="Personal portofolio" style="border-radius: 2.5rem; max-width: 100%; width: 100%;"/>',
+      product_two: `<img src=${ant} alt="Personal portofolio" style="border-radius: 2.5rem; max-width: 100%; width: 100%;"/>`,
       text_two: "Ant - Personal Portofolio",
-      product_three:
-        '<img src="./src/assets/lumy.png" alt="Dashboard UI Kit" style="border-radius: 2.5rem; max-width: 100%; width: 100%;"/>',
+      product_three: `<img src=${lumy} alt="Dashboard UI Kit" style="border-radius: 2.5rem; max-width: 100%; width: 100%;"/>`,
       text_three: "Lumy - Dashboard UI Kit",
-      product_four:
-        '<img src="./src/assets/keeper.png" alt="Soccer Site" style="border-radius: 2.5rem; max-width: 100%; width: 100%;"/>',
+      product_four: `<img src=${keeper} alt="Soccer Site" style="border-radius: 2.5rem; max-width: 100%; width: 100%;"/>`,
       text_four: "Keeper - Soccer Site",
     };
   },

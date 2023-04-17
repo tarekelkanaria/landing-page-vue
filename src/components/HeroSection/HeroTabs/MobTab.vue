@@ -14,21 +14,22 @@
 
 <script>
 import ProjectCard from "../ProjectCard.vue";
+import mobDesign01 from "../../../assets/mob-design-01.jpeg";
+import mobDesign02 from "../../../assets/mob-design-02.jpeg";
+import mobDesign03 from "../../../assets/mob-design-03.jpeg";
+import mobDesign04 from "../../../assets/mob-design-04.jpeg";
+
 export default {
   name: "MobTab",
   data() {
     return {
-      product_one:
-        '<img src="./src/assets/mob-design-01.jpeg" alt="Mobile design" style="border-radius: 2.5rem; width: 100%; max-width: 100%;"/>',
+      product_one: `<img src=${mobDesign01} alt="Mobile design" style="border-radius: 2.5rem; width: 100%; max-width: 100%;"/>`,
       text_one: "Minify - Mobile Design",
-      product_two:
-        '<img src="./src/assets/mob-design-02.jpeg" alt="Mobile design" style="border-radius: 2.5rem;width: 100%; max-width: 100%;" />',
+      product_two: `<img src=${mobDesign02} alt="Mobile design" style="border-radius: 2.5rem;width: 100%; max-width: 100%;" />`,
       text_two: "Ant - Mobile App",
-      product_three:
-        '<img src="./src/assets/mob-design-03.jpeg" alt="Mobile design" style="border-radius: 2.5rem; width: 100%; max-width: 100%;"/>',
+      product_three: `<img src=${mobDesign03} alt="Mobile design" style="border-radius: 2.5rem; width: 100%; max-width: 100%;"/>`,
       text_three: "Lumy - Mobile Design",
-      product_four:
-        '<img src="./src/assets/mob-design-04.jpeg" alt="Mobile design" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />',
+      product_four: `<img src=${mobDesign04} alt="Mobile design" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />`,
       text_four: "Keeper - Mobile App",
     };
   },

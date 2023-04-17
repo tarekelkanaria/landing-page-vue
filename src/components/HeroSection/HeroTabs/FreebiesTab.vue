@@ -14,21 +14,22 @@
 
 <script>
 import ProjectCard from "../ProjectCard.vue";
+import freebies01 from "../../../assets/freebies-01.jpeg";
+import freebies02 from "../../../assets/freebies-02.jpeg";
+import freebies03 from "../../../assets/freebies-03.jpeg";
+import freebies04 from "../../../assets/freebies-04.jpeg";
+
 export default {
   name: "FreebiesTab",
   data() {
     return {
-      product_one:
-        '<img src="./src/assets/freebies-01.jpeg" alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;"/>',
+      product_one: `<img src=${freebies01} alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;"/>`,
       text_one: "Minify - Freebies",
-      product_two:
-        '<img src="./src/assets/freebies-02.jpeg" alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />',
+      product_two: `<img src=${freebies02} alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />`,
       text_two: "Ant - Freebies",
-      product_three:
-        '<img src="./src/assets/freebies-03.jpeg" alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />',
+      product_three: `<img src=${freebies03} alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />`,
       text_three: "Lumy - Freebies",
-      product_four:
-        '<img src="./src/assets/freebies-04.jpeg" alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />',
+      product_four: `<img src=${freebies04} alt="Freebies" style="border-radius: 2.5rem; width: 100%; max-width: 100%;" />`,
       text_four: "Keeper - Freebies",
     };
   },
