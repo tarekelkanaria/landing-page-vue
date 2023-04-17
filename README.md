@@ -2,6 +2,10 @@
 
 A landing page using Vue.js framework
 
+## Demo Preview
+
+[Link to the page](https://landing-page-vue-elkanaria.netlify.app/)
+
 ## Requirements
 
 meets the design specifications with clean, well-structured, and well-commented code that can be easily maintained and scaled.
