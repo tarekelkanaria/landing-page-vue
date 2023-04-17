@@ -5,15 +5,22 @@
       with me?
     </h2>
     <button class="mail">
-      <img src="src/assets/mail.svg" alt="Mail icon" />
+      <img :src="mailURL" alt="Mail icon" />
       <span>Email Me</span>
     </button>
   </section>
 </template>
 
 <script>
+import mail from "../../assets/mail.svg";
+
 export default {
   name: "WorkingSection",
+  data() {
+    return {
+      mailURL: mail,
+    };
+  },
 };
 </script>
 
